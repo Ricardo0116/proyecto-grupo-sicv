@@ -10,7 +10,7 @@
                     </a>
                 </div>
                 <div class="login-form">
-                    <form action="{{route('dashboard')}}" method="post">
+                    <form action="{{route('login')}}" method="post">
                         @csrf
                         <div class="form-group">
                             <label>Email address</label>
